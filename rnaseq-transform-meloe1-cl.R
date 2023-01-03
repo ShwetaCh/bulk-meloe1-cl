@@ -43,9 +43,12 @@ shwlog2 = fread("~/Box/schavan/Vio/Meloe1/celllines/gene_level_TPM_kallisto_2_wi
   gex_genelevel_dcast = dcast(gex_genelevel, Gene ~ variable, value.var = "genelevel")
   dim(gex_genelevel_dcast) #35637
   length(unique(gex_genelevel_dcast$Gene)) #35637
-  
-  gex_genelevel_dcast_fil = filter(gex_genelevel_dcast, !Gene %like% "\\.")
-  dim(gex_genelevel_dcast_fil) #28443  
+
+  #gex_genelevel_dcast_fil = filter(gex_genelevel_dcast, !Gene %like% "\\.")
+  #dim(gex_genelevel_dcast_fil) #28443  
+  gex_genelevel_dcast_fil = gex_genelevel_dcast
+  #names(gex_genelevel_dcast_fil)  
+
   
 #names(gex_genelevel_dcast_fil)  
 shw0 = gex_genelevel_dcast_fil  
