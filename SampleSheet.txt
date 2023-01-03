@@ -1,0 +1,5 @@
+sample	condition	batch	cancertype	patid	cellline
+SKMEL2	NA	1	melanoma	NA	yes
+SKMEL5	NA	1	melanoma	NA	yes
+SKMEL28	NA	1	melanoma	NA	yes
+SKMEL37	NA	1	melanoma	NA	yes

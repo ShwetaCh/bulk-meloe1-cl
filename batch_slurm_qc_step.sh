@@ -1,0 +1,4 @@
+sbatch qc_merge_trim_fastqs.slurm SKMEL2
+sbatch qc_merge_trim_fastqs.slurm SKMEL5
+sbatch qc_merge_trim_fastqs.slurm SKMEL28
+sbatch qc_merge_trim_fastqs.slurm SKMEL37
